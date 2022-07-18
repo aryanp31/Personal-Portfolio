@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4fd03a0270.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/icon.png" 
+      alt="A windmill icon">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <!-- Navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Aryan Patel</strong>
+    </h1>
+    <p class="section-subtitle section__subtitle--intro">a developer</p>
+    <img src="img/FullSizeRender copy Large.jpg" 
+    alt="A picture of Aryan Patel"
+    class="intro__img">
+  </section>
+
+  <!-- About -->
+  <section class="about-me" id="about">
+    <h1 class="section__title section__title--about">About me</h1>
+    <p class="section__subtitle section__subtitle--about">Aspiring student at UIUC</p>
+
+    <div class="about-me__body">
+      <p>I am currently a sophomore studying at the University of Illinois at Urbana-Champaign. I have recently started getting into web development and programming and am excited to learn more! Some languages I know are, Java, C++, Python, and JavaScript.</p>
+      <p>During my free time, I enjoy playing video games, basketball, and dancing. I am also involved in a couple non-profit organizations that help to feed children across the globe.</p>
+    </div>
+
+    <img src="img/FullSizeRender.jpg" 
+    alt="" class="about-me__img">
+  </section>
+
+  <!-- Projects -->
+  <section class="projects--section" id="projects">
+    <h2 class="section__title section__title--projects">My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>K-means Clustering Model</h3>
+        <p>I created a k-means clustering model highlighting areas of increased violence within the Chicago area.
+          I then used that data on violence and clustered crime into categories based on severity to separate regions and create a density map of Chicago.
+          </p>
+      </div>
+
+      <div class="project">
+        <h3>JavaScript Calculator</h3>
+        <p>Created a modern and responsive calculator using JavaScript. This project helped me learn the basics of JavaScript and UI Design.</p>
+      </div>
+      <!-- <div class="project">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus numquam aut explicabo facilis voluptas ducimus dolore, facere laborum veniam voluptatum perspiciatis, voluptates quaerat fuga voluptatem. Voluptatem distinctio ipsum totam deserunt!</p>
+      </div> -->
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <a href="mailto:aryanpatel31@yahoo.com" class="footer__link">aryanpatel31@yahoo.com</a>
+    <ul class="social-list">
+      <!-- LinkedIn -->
+      <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/aryanpatel10" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      <!-- GitHub -->
+      <li class="social-list__item"><a class="social-list__link" href="https://github.com/aryanp31" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+      <!-- Instagram -->
+      <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/aryanpatel10/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
